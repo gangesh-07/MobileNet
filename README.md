@@ -1,6 +1,11 @@
 Opencv is required for image loading.
 
-Examples of class_list.txt and labels.txt, and you can create you own files:
+
+Binary_files folder----> contains mobileNet layers weights
+data folder ---> contains images data, labels.txt and image_list.txt
+
+
+Examples of image_list.txt and labels.txt, and you can create you own files:
 test_list.txt
 1.jpg
 2.jpg
