@@ -1,5 +1,5 @@
-#include "utils.h"
-#include "Network.h"
+#include "predict.h"
+#include "MobileNet.h"
 #include <string>
 #include <fstream>
 #include <direct.h>
@@ -16,7 +16,7 @@ float Accuracy(float *Pred, int *Label, int nclass)
     return flag;
 }
 
-void test(const char *pcTestListFile, const char *pcTestLabelsFile, const char *pcTestImageSet)
+void run(const char *pcTestListFile, const char *pcTestLabelsFile, const char *pcTestImageSet)
 {
     Network network;
 

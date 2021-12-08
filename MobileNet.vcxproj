@@ -118,12 +118,12 @@
     <ClCompile Include="mobilenet\layers_bn.cpp" />
     <ClCompile Include="mobilenet\layers_ds.cpp" />
     <ClCompile Include="mobilenet\main.cpp" />
-    <ClCompile Include="mobilenet\Network.cpp" />
+    <ClCompile Include="mobilenet\MobileNet.cpp" />
     <ClCompile Include="mobilenet\readdata.cpp" />
     <ClCompile Include="mobilenet\reluLayer.cpp" />
     <ClCompile Include="mobilenet\sigmoidLayer.cpp" />
     <ClCompile Include="mobilenet\softmax.cpp" />
-    <ClCompile Include="mobilenet\utils.cpp" />
+    <ClCompile Include="mobilenet\predict.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mobilenet\batchnormalLayer.h" />
@@ -132,12 +132,12 @@
     <ClInclude Include="mobilenet\globalpoolLayer.h" />
     <ClInclude Include="mobilenet\layers_bn.h" />
     <ClInclude Include="mobilenet\layers_ds.h" />
-    <ClInclude Include="mobilenet\Network.h" />
+    <ClInclude Include="mobilenet\MobileNet.h" />
     <ClInclude Include="mobilenet\readdata.h" />
     <ClInclude Include="mobilenet\reluLayer.h" />
     <ClInclude Include="mobilenet\sigmoidLayer.h" />
     <ClInclude Include="mobilenet\softmax.h" />
-    <ClInclude Include="mobilenet\utils.h" />
+    <ClInclude Include="mobilenet\predict.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

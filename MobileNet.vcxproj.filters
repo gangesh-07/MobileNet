@@ -36,7 +36,7 @@
     <ClCompile Include="mobilenet\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mobilenet\Network.cpp">
+    <ClCompile Include="mobilenet\MobileNet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mobilenet\readdata.cpp">
@@ -48,7 +48,7 @@
     <ClCompile Include="mobilenet\sigmoidLayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mobilenet\utils.cpp">
+    <ClCompile Include="mobilenet\predict.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mobilenet\softmax.cpp">
@@ -74,7 +74,7 @@
     <ClInclude Include="mobilenet\layers_ds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobilenet\Network.h">
+    <ClInclude Include="mobilenet\MobileNet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mobilenet\readdata.h">
@@ -86,7 +86,7 @@
     <ClInclude Include="mobilenet\sigmoidLayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobilenet\utils.h">
+    <ClInclude Include="mobilenet\predict.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mobilenet\softmax.h">

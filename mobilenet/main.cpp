@@ -1,9 +1,9 @@
-#include "utils.h"
+#include "predict.h"
 
 
 int main()
 {
-    test("..\\data\\image_list.txt",
+    run("..\\data\\image_list.txt",
         "..\\data\\labels.txt",
         "..\\data\\images\\");
     return 0;

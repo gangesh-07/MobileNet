@@ -1,4 +1,4 @@
-﻿#include "Network.h"
+﻿#include "MobileNet.h"
 #include <vector>
 #include <iostream>
 #include <string>
@@ -10,7 +10,7 @@ Network::Network()
 
 	cout << "Initializing Network..." << endl;
 
-	m_Readdata = new ReadData( 224, 224, 3);
+	m_Readdata = new ReadData( 224, 224, 3); //initialize
 
     m_Layers_bn = new Layers_Bn(3, 32, 224, 2, "binary_files\\conv1.weights", "binary_files\\conv1_bn.mean", "binary_files\\conv1_bn.variance", "binary_files\\conv1_bn.filler",
         "binary_files\\conv1_bn.bias_filler");
